@@ -53,7 +53,7 @@ export const experience = [
   {
     company: 'Software Developer Intern',
     designation: 'Navi Mumbai, Maharashtra',
-    period: 'March 2023 — May 2023 · 3 months',
+    period: 'January 2023 — June 2023 · 6 months',
     points: [
       'Worked on backend development using Java and Spring Boot in an Agile environment.',
       'Assisted with REST API development, SQL database integration, and application debugging.',
