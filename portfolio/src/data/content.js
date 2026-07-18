@@ -10,8 +10,8 @@ export const profile = {
   languagesKnown: 'English, Hindi, Marathi',
   photo: '/profile.png',
   about: [
-    "I'm a 24-year-old technology enthusiast based in Pune, with a growing career at the intersection of IT operations and cloud infrastructure. I thrive on solving problems end-to-end — from diagnosing tricky enterprise issues under tight SLAs to architecting and shipping my own web projects using React, Java, and Spring Boot. My time working across Microsoft Azure, AWS, and enterprise support systems has sharpened my ability to stay calm under pressure and communicate clearly with people at every level.",
-    "I'm someone who genuinely enjoys the climb — whether that's learning a new cloud service, untangling a stubborn bug, or exploring a mountain trail on my motorcycle on weekends. I've collaborated with startups and individuals across the globe, and I'm always looking for the next challenge that pushes me a little further outside my comfort zone.",
+    "I'm a 24-year-old technology enthusiast based in Pune, with a growing career at the intersection of IT operations and cloud infrastructure. I thrive on solving problems end-to-end, from diagnosing tricky enterprise issues under tight SLAs to architecting and shipping my own web projects using React, Java, and Spring Boot. My time working across Microsoft Azure, AWS, and enterprise support systems has sharpened my ability to stay calm under pressure and communicate clearly with people at every level.",
+    "I'm someone who genuinely enjoys the climb, whether that's learning a new cloud service, untangling a stubborn bug, or exploring a mountain trail on my motorcycle on weekends. I've collaborated with startups and individuals across the globe, and I'm always looking for the next challenge that pushes me a little further outside my comfort zone.",
   ],
   quote: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.',
   resumeUrl: '/resume.pdf',
@@ -50,7 +50,7 @@ export const experience = [
     company: 'Amdocs',
     logo: '/logo-amdocs.svg',
     designation: 'Technical and Business Operations Analyst · Pune, Maharashtra',
-    period: 'June 2026 — Present',
+    period: 'June 2026 - Present',
     points: [
       'Virtualization, Microsoft 365, Microsoft Azure, and Microsoft Endpoint Configuration Manager.',
     ],
@@ -59,7 +59,7 @@ export const experience = [
     company: 'HCLTech',
     logo: '/logo-hcltech.svg',
     designation: 'Technical Support Engineer · Nagpur, Maharashtra',
-    period: 'January 2025 — May 2026 · 1 year 5 months',
+    period: 'January 2025 - May 2026 · 1 year 5 months',
     points: [
       'Handled 30–40+ technical incidents daily under defined SLA.',
       'Provided first-level resolution for Windows, Outlook, Teams, and enterprise application issues.',
@@ -75,7 +75,7 @@ export const experience = [
     company: 'Capgemini',
     logo: '/logo-capgemini.svg',
     designation: 'Software Developer Intern · Navi Mumbai, Maharashtra',
-    period: 'January 2023 — June 2023 · 6 months',
+    period: 'January 2023 - June 2023 · 6 months',
     points: [
       'Worked on backend development using Java and Spring Boot in an Agile environment.',
       'Assisted with REST API development, SQL database integration, and application debugging.',
@@ -93,23 +93,23 @@ export const skills = {
 
 export const certifications = [
   {
-    name: 'Java Developer Associate (JDAC) — EduMex',
+    name: 'Java Developer Associate (JDAC), EduMex',
     url: 'https://drive.google.com/file/d/1rroTKAmHsRXs_ikcpCtrChYsooy1aXdA/view',
   },
   {
-    name: 'Java Spring Framework with Spring Boot — Udemy',
+    name: 'Java Spring Framework with Spring Boot, Udemy',
     url: 'https://www.udemy.com/certificate/UC-d8403e9b-66ca-46f6-a313-7a2ca5a3ab07/',
   },
   {
-    name: 'Microsoft Certified: Azure Fundamentals — Microsoft',
+    name: 'Microsoft Certified: Azure Fundamentals',
     url: 'https://drive.google.com/file/d/1gr6AUN8toNkJ01toT-wQHmspwMKpgFHJ/view',
   },
 ]
 
 export const education = [
-  { year: 'March 2017', label: '10th / SSC — Bishop Cotton High School' },
-  { year: '2017 - 2020', label: 'Diploma / MSBTE — G.H. Raisoni Polytechnic (GHRP), Nagpur' },
-  { year: '2020 - 2023', label: "B-Tech / Bachelor's — G.H. Raisoni College of Engineering (GHRCE), Nagpur" },
+  { year: 'March 2017', label: '10th / SSC, Bishop Cotton High School' },
+  { year: '2017 - 2020', label: 'Diploma / MSBTE, G.H. Raisoni Polytechnic (GHRP), Nagpur' },
+  { year: '2020 - 2023', label: "B-Tech / Bachelor's, G.H. Raisoni College of Engineering (GHRCE), Nagpur" },
 ]
 
 export const projects = [
@@ -117,7 +117,7 @@ export const projects = [
     id: 1,
     name: 'E-commerce Backend API',
     description:
-      'A full-featured REST API for an online store — product catalog, shopping cart, order processing, and inventory tracking with role-based access control.',
+      'A full-featured REST API for an online store, covering product catalog, shopping cart, order processing, and inventory tracking with role-based access control.',
     image: '/project-ecommerce-backend.svg',
     stack: ['Java', 'Spring Boot', 'Spring Data JPA', 'H2'],
     link: 'https://github.com/YugantMoundekar/ecommerce-backend-api',
@@ -126,7 +126,7 @@ export const projects = [
     id: 2,
     name: 'Task Management API',
     description:
-      'Create, assign, and track tasks across projects with status workflows, priorities, and due dates — documented end-to-end with Swagger UI.',
+      'Create, assign, and track tasks across projects with status workflows, priorities, and due dates. Documented end-to-end with Swagger UI.',
     image: '/project-task-management.svg',
     stack: ['Java', 'Spring Boot', 'REST API', 'Swagger'],
     link: 'https://github.com/YugantMoundekar/task-management-api',

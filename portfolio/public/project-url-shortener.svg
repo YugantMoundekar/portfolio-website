@@ -37,7 +37,7 @@
 
   <!-- click analytics line chart -->
   <rect x="60" y="240" width="480" height="70" rx="10" fill="#0f0f16" stroke="#213347"/>
-  <text x="76" y="258" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Click analytics — last 7 days</text>
+  <text x="76" y="258" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Click analytics, last 7 days</text>
   <polyline points="80,298 130,285 180,290 230,270 280,278 330,255 380,262 430,240 480,248 520,225"
     fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="520" cy="225" r="4" fill="#38bdf8"/>

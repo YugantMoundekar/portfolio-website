@@ -36,12 +36,12 @@ Everything text/content-related lives in **one file**: `src/data/content.js`. Ed
 - Technical skills by category (`skills`)
 - Certifications (`certifications`)
 - Education timeline (`education`)
-- Projects — name, image, tech stack, link (`projects`)
+- Projects: name, image, tech stack, link (`projects`)
 - Gallery images (`gallery`)
 
 ### Making the Contact form actually work
 
-The "Let's Connect" contact form uses [Formspree](https://formspree.io) to deliver submissions straight to your inbox — no backend needed.
+The "Let's Connect" contact form uses [Formspree](https://formspree.io) to deliver submissions straight to your inbox, no backend needed.
 
 1. Sign up for a free account at [formspree.io](https://formspree.io/register).
 2. Click **+ New Form**, name it anything (e.g. "Portfolio Contact"), and set the recipient email to your own.
@@ -62,7 +62,7 @@ Drop files into the `public/` folder and reference them with a leading `/`, e.g.
 - `public/resume.pdf` → `resumeUrl: '/resume.pdf'`
 - `public/projects/my-app.png` → `image: '/projects/my-app.png'`
 
-Placeholder SVGs are currently used for the profile photo, project thumbnails, and gallery images — swap them out with real photos/screenshots whenever you're ready.
+Placeholder SVGs are currently used for the profile photo, project thumbnails, and gallery images. Swap them out with real photos/screenshots whenever you're ready.
 
 ## Project Structure
 
@@ -70,10 +70,10 @@ Placeholder SVGs are currently used for the profile photo, project thumbnails, a
 src/
   components/   # Navbar, Footer, ProjectCard, Slideshow, Contact, SkillBar
   context/      # ThemeContext (dark/light mode)
-  data/         # content.js — all editable site content
+  data/         # content.js: all editable site content
   pages/        # Home, About, Work, Gallery
 ```
 
 ## Deployment
 
-This is a static Vite app — deploy the `dist/` folder (after `npm run build`) to Vercel, Netlify, GitHub Pages, or any static host.
+This is a static Vite app. Deploy the `dist/` folder (after `npm run build`) to Vercel, Netlify, GitHub Pages, or any static host.

@@ -14,7 +14,7 @@ export default function Work() {
         My Work
       </motion.h1>
       <p className="text-slate-500 dark:text-slate-400 mt-2 max-w-xl">
-        A selection of projects I've built — click any project's link to see the code or a live demo.
+        A selection of projects I've built. Click any project's link to see the code or a live demo.
       </p>
 
       <div className="grid sm:grid-cols-2 gap-6 mt-10">

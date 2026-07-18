@@ -24,7 +24,7 @@ portfolio/
 ├── src/
 │   ├── components/   # Navbar, Footer, Contact, Slideshow, ProjectCard...
 │   ├── context/      # Dark/light theme
-│   ├── data/         # content.js — every bit of editable site content
+│   ├── data/         # content.js: every bit of editable site content
 │   └── pages/        # Home, About, Work, Gallery
 └── public/           # Images, resume, favicon
 ```
@@ -34,7 +34,7 @@ portfolio/
 - 🌗 Light/dark mode toggle with a floating pill navbar
 - 🧭 Home, About, Work, and Gallery pages with smooth Framer Motion animations
 - 🧑‍💻 An About page with my real work experience, skills, certifications, and education timeline
-- 📬 A working "Let's Connect" contact form (powered by Formspree — no backend needed)
+- 📬 A working "Let's Connect" contact form (powered by Formspree, no backend needed)
 - 📸 A real photo gallery + slideshow, because scrolling through a resume is boring
 
 ## 🛠️ Tech Stack

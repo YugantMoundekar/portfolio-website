@@ -20,7 +20,7 @@ export default function Contact() {
           <span>
             Contact form isn't wired up yet. Add your Formspree Form ID to{' '}
             <code className="px-1 py-0.5 rounded bg-black/10 dark:bg-white/10">profile.formspreeId</code> in{' '}
-            <code className="px-1 py-0.5 rounded bg-black/10 dark:bg-white/10">src/data/content.js</code> — sign up
+            <code className="px-1 py-0.5 rounded bg-black/10 dark:bg-white/10">src/data/content.js</code>. Sign up
             free at formspree.io to get one.
           </span>
         </div>

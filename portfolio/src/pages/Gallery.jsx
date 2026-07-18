@@ -11,7 +11,7 @@ export default function Gallery() {
     <div className="container-page pt-32 pb-20">
       <h1 className="text-3xl sm:text-4xl font-extrabold">Gallery</h1>
       <p className="text-slate-500 dark:text-slate-400 mt-2 max-w-xl">
-        A few snapshots — moments, events, and behind-the-scenes.
+        A few snapshots from moments, events, and behind-the-scenes.
       </p>
 
       <Slideshow images={gallery} className="h-64 sm:h-80 mt-8 border border-slate-200 dark:border-slate-800" />
