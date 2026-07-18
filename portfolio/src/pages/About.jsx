@@ -44,13 +44,14 @@ export default function About() {
               <p className="text-xs text-slate-400 dark:text-slate-500 mt-1">{profile.languagesKnown}</p>
             </div>
           </div>
-          <nav className="border-l border-slate-200 dark:border-slate-800 pl-4 space-y-3">
+          <nav className="flex flex-col gap-1">
             {sideLinks.map((l) => (
               <a
                 key={l.id}
                 href={`#${l.id}`}
-                className="block text-sm text-slate-500 dark:text-slate-400 hover:text-accent-pink transition-colors"
+                className="group flex items-center gap-2.5 text-sm text-slate-500 dark:text-slate-400 rounded-lg pl-4 pr-3 py-2 border-l-2 border-slate-200 dark:border-slate-800 hover:border-accent-pink hover:text-accent-pink hover:bg-accent-pink/5 hover:translate-x-1 transition-all duration-200"
               >
+                <span className="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-600 group-hover:bg-accent-pink group-hover:scale-125 transition-all duration-200 shrink-0" />
                 {l.label}
               </a>
             ))}
