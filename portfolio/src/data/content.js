@@ -20,10 +20,23 @@ export const profile = {
   ],
 }
 
-export const heroIntro = [
-  'I bridge technical support and business operations with a passion for Cloud Technologies.',
-  'Experienced across Microsoft Azure, AWS, virtualization, and DevOps.',
-  'Background in software development with Java, Spring Boot, and React JS.',
+export const heroHighlights = [
+  {
+    icon: 'target',
+    text: 'Resolved 30–40+ technical incidents daily while maintaining 95%+ SLA adherence.',
+  },
+  {
+    icon: 'cloud',
+    text: 'Hands-on expertise across Microsoft Azure, AWS, virtualization, and enterprise DevOps.',
+  },
+  {
+    icon: 'code',
+    text: 'Full-stack development background with Java, Spring Boot, React JS, and REST APIs.',
+  },
+  {
+    icon: 'users',
+    text: 'Proven track record collaborating with startups and cross-functional teams worldwide.',
+  },
 ]
 
 export const experience = [

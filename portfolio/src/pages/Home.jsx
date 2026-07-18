@@ -1,8 +1,15 @@
 import { motion } from 'framer-motion'
-import { Download } from 'lucide-react'
-import { profile, heroIntro, gallery } from '../data/content.js'
+import { Download, Target, Cloud, Code2, Users } from 'lucide-react'
+import { profile, heroHighlights, gallery } from '../data/content.js'
 import Slideshow from '../components/Slideshow.jsx'
 import Contact from '../components/Contact.jsx'
+
+const highlightIcons = {
+  target: Target,
+  cloud: Cloud,
+  code: Code2,
+  users: Users,
+}
 
 export default function Home() {
   return (
@@ -20,12 +27,24 @@ export default function Home() {
             {profile.designation}
           </h1>
 
-          <ul className="mt-8 space-y-3">
-            {heroIntro.map((line) => (
-              <li key={line} className="text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-slate-800 pb-2">
-                {line}
-              </li>
-            ))}
+          <ul className="mt-8 space-y-4">
+            {heroHighlights.map(({ icon, text }, i) => {
+              const Icon = highlightIcons[icon] || Target
+              return (
+                <motion.li
+                  key={text}
+                  initial={{ opacity: 0, x: -12 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.4, delay: 0.15 + i * 0.08 }}
+                  className="flex items-start gap-3 group"
+                >
+                  <span className="mt-0.5 flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-accent-pink/15 to-accent-blue/15 text-accent-pink shrink-0 group-hover:scale-110 transition-transform duration-200">
+                    <Icon size={16} />
+                  </span>
+                  <span className="text-slate-600 dark:text-slate-300 leading-relaxed pt-1">{text}</span>
+                </motion.li>
+              )
+            })}
           </ul>
 
           <a
