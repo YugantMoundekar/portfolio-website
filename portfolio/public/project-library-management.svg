@@ -1,7 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340">
-  <rect width="600" height="340" fill="#14141c"/>
-  <rect x="0" y="0" width="600" height="340" fill="none" stroke="#2a2a35" stroke-width="2"/>
-  <path d="M220 220 V125 q40 -15 80 0 V220 q-40 -12 -80 0 Z" fill="none" stroke="#ec4899" stroke-width="3"/>
-  <path d="M300 220 V125 q40 -15 80 0 V220 q-40 -12 -80 0 Z" fill="none" stroke="#3b82f6" stroke-width="3"/>
-  <rect x="250" y="245" width="100" height="8" rx="4" fill="#64748b" opacity="0.5"/>
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1712"/>
+      <stop offset="1" stop-color="#221a10"/>
+    </linearGradient>
+    <radialGradient id="glow5" cx="0.15" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg5)"/>
+  <rect width="600" height="340" fill="url(#glow5)"/>
+  <circle cx="40" cy="34" r="6" fill="#ef4444" opacity="0.7"/>
+  <circle cx="60" cy="34" r="6" fill="#f59e0b" opacity="0.7"/>
+  <circle cx="80" cy="34" r="6" fill="#22c55e" opacity="0.7"/>
+  <rect x="150" y="24" width="220" height="20" rx="10" fill="#ffffff" opacity="0.06"/>
+
+  <!-- search bar -->
+  <rect x="60" y="70" width="260" height="30" rx="15" fill="#241c13" stroke="#3a2c18"/>
+  <circle cx="78" cy="85" r="6" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="83" y1="90" x2="88" y2="95" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <text x="100" y="90" fill="#c8a876" font-family="Arial, sans-serif" font-size="11">Search by title, author, ISBN...</text>
+
+  <!-- bookshelf -->
+  <g transform="translate(60,120)">
+    <rect x="0" y="60" width="300" height="8" rx="2" fill="#3a2c18"/>
+    <rect x="6" y="0" width="20" height="60" fill="#ec4899"/>
+    <rect x="30" y="10" width="20" height="50" fill="#3b82f6"/>
+    <rect x="54" y="4" width="20" height="56" fill="#f59e0b"/>
+    <rect x="78" y="14" width="20" height="46" fill="#22c55e"/>
+    <rect x="102" y="0" width="16" height="60" fill="#a855f7"/>
+    <rect x="122" y="8" width="20" height="52" fill="#38bdf8"/>
+    <rect x="146" y="18" width="18" height="42" fill="#ec4899" opacity="0.7"/>
+    <rect x="0" y="90" width="300" height="8" rx="2" fill="#3a2c18"/>
+    <rect x="10" y="30" width="18" height="60" fill="#22c55e" opacity="0.8"/>
+    <rect x="32" y="20" width="20" height="70" fill="#f59e0b" opacity="0.8"/>
+    <rect x="56" y="36" width="16" height="54" fill="#3b82f6" opacity="0.8"/>
+    <rect x="76" y="24" width="20" height="66" fill="#a855f7" opacity="0.8"/>
+    <rect x="100" y="32" width="18" height="58" fill="#ec4899" opacity="0.8"/>
+    <rect x="122" y="20" width="20" height="70" fill="#38bdf8" opacity="0.8"/>
+  </g>
+
+  <rect x="390" y="70" width="150" height="90" rx="12" fill="#0f0f16" stroke="#3a2c18"/>
+  <text x="404" y="94" fill="#c8a876" font-family="Arial, sans-serif" font-size="10">Total catalog</text>
+  <text x="404" y="122" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="bold">3,240</text>
+  <text x="404" y="142" fill="#f59e0b" font-family="Arial, sans-serif" font-size="10">books available</text>
+
+  <rect x="390" y="172" width="150" height="128" rx="12" fill="#0f0f16" stroke="#3a2c18"/>
+  <text x="404" y="196" fill="#c8a876" font-family="Arial, sans-serif" font-size="10">Borrowed this month</text>
+  <g transform="translate(404,210)">
+    <rect x="0" y="40" width="14" height="45" rx="3" fill="#f59e0b" opacity="0.5"/>
+    <rect x="20" y="25" width="14" height="60" rx="3" fill="#f59e0b" opacity="0.7"/>
+    <rect x="40" y="10" width="14" height="75" rx="3" fill="#f59e0b"/>
+    <rect x="60" y="30" width="14" height="55" rx="3" fill="#f59e0b" opacity="0.6"/>
+    <rect x="80" y="18" width="14" height="67" rx="3" fill="#f59e0b" opacity="0.85"/>
+  </g>
 </svg>

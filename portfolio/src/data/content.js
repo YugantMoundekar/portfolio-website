@@ -48,6 +48,7 @@ export const heroHighlights = [
 export const experience = [
   {
     company: 'Amdocs',
+    logo: '/logo-amdocs.svg',
     designation: 'Technical and Business Operations Analyst · Pune, Maharashtra',
     period: 'June 2026 — Present',
     points: [
@@ -56,6 +57,7 @@ export const experience = [
   },
   {
     company: 'HCLTech',
+    logo: '/logo-hcltech.svg',
     designation: 'Technical Support Engineer · Nagpur, Maharashtra',
     period: 'January 2025 — May 2026 · 1 year 5 months',
     points: [
@@ -71,6 +73,7 @@ export const experience = [
   },
   {
     company: 'Capgemini',
+    logo: '/logo-capgemini.svg',
     designation: 'Software Developer Intern · Navi Mumbai, Maharashtra',
     period: 'January 2023 — June 2023 · 6 months',
     points: [
@@ -113,6 +116,8 @@ export const projects = [
   {
     id: 1,
     name: 'E-commerce Backend API',
+    description:
+      'A full-featured REST API for an online store — product catalog, shopping cart, order processing, and inventory tracking with role-based access control.',
     image: '/project-ecommerce-backend.svg',
     stack: ['Java', 'Spring Boot', 'Spring Data JPA', 'H2'],
     link: 'https://github.com/YugantMoundekar/ecommerce-backend-api',
@@ -120,6 +125,8 @@ export const projects = [
   {
     id: 2,
     name: 'Task Management API',
+    description:
+      'Create, assign, and track tasks across projects with status workflows, priorities, and due dates — documented end-to-end with Swagger UI.',
     image: '/project-task-management.svg',
     stack: ['Java', 'Spring Boot', 'REST API', 'Swagger'],
     link: 'https://github.com/YugantMoundekar/task-management-api',
@@ -127,6 +134,8 @@ export const projects = [
   {
     id: 3,
     name: 'Expense Tracker API',
+    description:
+      'Tracks personal expenses by category and date, with endpoints for monthly summaries so spending patterns are easy to analyze.',
     image: '/project-expense-tracker.svg',
     stack: ['Java', 'Spring Boot', 'JPA', 'H2'],
     link: 'https://github.com/YugantMoundekar/expense-tracker-api',
@@ -134,6 +143,8 @@ export const projects = [
   {
     id: 4,
     name: 'Employee Leave Management API',
+    description:
+      'Handles leave requests, approvals, and balance tracking for employees and managers, with clear role-based permissions.',
     image: '/project-leave-management.svg',
     stack: ['Java', 'Spring Boot', 'Spring Data JPA'],
     link: 'https://github.com/YugantMoundekar/employee-leave-management-api',
@@ -141,6 +152,8 @@ export const projects = [
   {
     id: 5,
     name: 'URL Shortener API',
+    description:
+      'Converts long URLs into short, shareable links and tracks click analytics for every link generated.',
     image: '/project-url-shortener.svg',
     stack: ['Java', 'Spring Boot', 'REST API'],
     link: 'https://github.com/YugantMoundekar/url-shortener-api',
@@ -148,6 +161,8 @@ export const projects = [
   {
     id: 6,
     name: 'Library Management API',
+    description:
+      'Manages books, members, and the full borrow-and-return workflow for a library, including due-date and availability tracking.',
     image: '/project-library-management.svg',
     stack: ['Java', 'Spring Boot', 'Spring Data JPA', 'H2'],
     link: 'https://github.com/YugantMoundekar/library-management-api',

@@ -106,10 +106,21 @@ export default function About() {
               {experience.map((job) => (
                 <div key={job.company + job.period} className="relative">
                   <span className="absolute -left-[29px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent-pink" />
-                  <div className="flex flex-wrap items-baseline justify-between gap-2">
-                    <div>
-                      <p className="font-semibold">{job.company}</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">{job.designation}</p>
+                  <div className="flex flex-wrap items-start justify-between gap-2">
+                    <div className="flex items-center gap-3">
+                      {job.logo && (
+                        <span className="flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-white border border-slate-200 dark:border-slate-700 shrink-0 overflow-hidden shadow-sm">
+                          <img
+                            src={job.logo}
+                            alt={`${job.company} logo`}
+                            className="w-full h-full object-contain p-1.5"
+                          />
+                        </span>
+                      )}
+                      <div>
+                        <p className="font-semibold">{job.company}</p>
+                        <p className="text-sm text-slate-500 dark:text-slate-400">{job.designation}</p>
+                      </div>
                     </div>
                     <span className="text-xs px-2.5 py-1 rounded-full border border-slate-300 dark:border-slate-700 text-slate-500 dark:text-slate-400">
                       {job.period}
