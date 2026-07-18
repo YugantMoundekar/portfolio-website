@@ -89,9 +89,18 @@ export const skills = {
 }
 
 export const certifications = [
-  { name: 'Certification Name — Issuing Platform', url: '#' },
-  { name: 'Certification Name — Issuing Platform', url: '#' },
-  { name: 'Certification Name — Issuing Platform', url: '#' },
+  {
+    name: 'Java Developer Associate (JDAC) — EduMex',
+    url: 'https://drive.google.com/file/d/1rroTKAmHsRXs_ikcpCtrChYsooy1aXdA/view',
+  },
+  {
+    name: 'Java Spring Framework with Spring Boot — Udemy',
+    url: 'https://www.udemy.com/certificate/UC-d8403e9b-66ca-46f6-a313-7a2ca5a3ab07/',
+  },
+  {
+    name: 'Microsoft Certified: Azure Fundamentals — Microsoft',
+    url: 'https://drive.google.com/file/d/1gr6AUN8toNkJ01toT-wQHmspwMKpgFHJ/view',
+  },
 ]
 
 export const education = [
