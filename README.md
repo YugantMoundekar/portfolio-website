@@ -2,10 +2,10 @@
 
 # 👋 Hey, I'm Yugant Moundekar
 
-### Technical and Business Operations Analyst · Cloud & IT Ops Enthusiast · Weekend Motorcyclist 🏍️
+### Software Engineer · Java & Spring Boot · Weekend Motorcyclist 🏍️
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-yugantmoundekar.live-ec4899?style=for-the-badge)](https://yugantmoundekar.live)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-3b82f6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yugantmoundekar)
+[![Portfolio](https://img.shields.io/badge/Portfolio-yugantmoundekar.live-06b6d4?style=for-the-badge)](https://yugantmoundekar.live)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-6366f1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yugantmoundekar)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YugantMoundekar)
 [![Email](https://img.shields.io/badge/Email-Say%20Hi-6366f1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moundekaryugant@gmail.com)
 

@@ -5,13 +5,13 @@
 
 export const profile = {
   name: 'Yugant Moundekar',
-  designation: 'Technical and Business Operations Analyst',
+  designation: 'Software Engineer',
   location: 'Pune, Maharashtra, India',
   languagesKnown: 'English, Hindi, Marathi',
   photo: '/profile.png',
   about: [
-    "I'm a 24-year-old technology enthusiast based in Pune, with a growing career at the intersection of IT operations and cloud infrastructure. I thrive on solving problems end-to-end, from diagnosing tricky enterprise issues under tight SLAs to architecting and shipping my own web projects using React, Java, and Spring Boot. My time working across Microsoft Azure, AWS, and enterprise support systems has sharpened my ability to stay calm under pressure and communicate clearly with people at every level.",
-    "I'm someone who genuinely enjoys the climb, whether that's learning a new cloud service, untangling a stubborn bug, or exploring a mountain trail on my motorcycle on weekends. I've collaborated with startups and individuals across the globe, and I'm always looking for the next challenge that pushes me a little further outside my comfort zone.",
+    "I'm a 24-year-old software engineer based in Pune, focused on designing and building clean, reliable applications with Java and Spring Boot. My path here started in technical support, where I spent over a year debugging enterprise systems and working across Microsoft Azure and AWS. That experience taught me to think in root causes, not just symptoms, and it's the mindset I now bring to writing code.",
+    "Outside of my day job, I've spent my time building things: six independent Spring Boot APIs covering everything from task management to e-commerce, each with a proper layered architecture, database integration, and documented endpoints. I'm actively growing my skills in Java, Spring Boot, and full-stack development, and I'm looking for the next opportunity to build software professionally. On weekends, you'll usually find me exploring a mountain trail on my motorcycle.",
   ],
   quote: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.',
   resumeUrl: '/resume.pdf',
@@ -28,20 +28,20 @@ export const profile = {
 
 export const heroHighlights = [
   {
+    icon: 'code',
+    text: 'Software engineer building applications and REST APIs with Java, Spring Boot, and Spring Data JPA.',
+  },
+  {
     icon: 'target',
-    text: 'Resolved 30–40+ technical incidents daily while maintaining 95%+ SLA adherence.',
+    text: 'Shipped 6 independent Spring Boot APIs, each with a clean, layered architecture and documented endpoints.',
   },
   {
     icon: 'cloud',
-    text: 'Hands-on expertise across Microsoft Azure, AWS, virtualization, and enterprise DevOps.',
-  },
-  {
-    icon: 'code',
-    text: 'Full-stack development background with Java, Spring Boot, React JS, and REST APIs.',
+    text: 'Full-stack skills across React JS, SQL databases, and cloud platforms like Azure and AWS.',
   },
   {
     icon: 'users',
-    text: 'Proven track record collaborating with startups and cross-functional teams worldwide.',
+    text: 'Sharp debugging instincts and a calm, methodical approach, built from resolving real production issues daily.',
   },
 ]
 
@@ -52,7 +52,7 @@ export const experience = [
     designation: 'Technical and Business Operations Analyst · Pune, Maharashtra',
     period: 'June 2026 - Present',
     points: [
-      'Virtualization, Microsoft 365, Microsoft Azure, and Microsoft Endpoint Configuration Manager.',
+      'Manage and troubleshoot virtualization, Microsoft 365, Microsoft Azure, and endpoint configuration across the organization\'s technical infrastructure.',
     ],
   },
   {
@@ -61,14 +61,11 @@ export const experience = [
     designation: 'Technical Support Engineer · Nagpur, Maharashtra',
     period: 'January 2025 - May 2026 · 1 year 5 months',
     points: [
-      'Handled 30–40+ technical incidents daily under defined SLA.',
-      'Provided first-level resolution for Windows, Outlook, Teams, and enterprise application issues.',
-      'Logged, categorized, and prioritized incidents using ServiceNow.',
-      'Coordinated with L2/L3 teams for issue escalation and resolution.',
-      'Performed root cause analysis for recurring incidents.',
-      'Ensured 95%+ SLA adherence.',
-      'Documented knowledge base articles for common issues, reducing repeat issues and improving resolution efficiency.',
-      'Troubleshot network connectivity issues including DNS resolution, VPN access, and IP configuration using basic TCP/IP diagnostics.',
+      'Diagnosed and resolved 30–40+ technical incidents daily, applying structured root cause analysis across Windows, Outlook, Teams, and enterprise applications.',
+      'Investigated network-level issues including DNS resolution, VPN connectivity, and IP configuration using TCP/IP diagnostics.',
+      'Authored knowledge base documentation for recurring issues, reducing repeat tickets and improving team resolution time.',
+      'Coordinated with L2/L3 engineering teams to escalate and resolve complex technical issues while maintaining 95%+ SLA adherence.',
+      'Logged and triaged incidents in ServiceNow, prioritizing by technical severity and business impact.',
     ],
   },
   {
@@ -85,10 +82,10 @@ export const experience = [
 ]
 
 export const skills = {
-  Frontend: ['HTML5', 'CSS3', 'JavaScript', 'React JS'],
-  Backend: ['Java', 'Spring Boot'],
+  Backend: ['Java', 'Spring Boot', 'REST APIs', 'Spring Data JPA'],
+  Frontend: ['React JS', 'JavaScript', 'HTML5', 'CSS3'],
   'Cloud & DevOps': ['AWS', 'Azure', 'DevOps'],
-  Tools: ['Git'],
+  Tools: ['Git', 'Maven'],
 }
 
 export const certifications = [
