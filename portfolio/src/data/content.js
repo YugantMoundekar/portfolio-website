@@ -13,6 +13,10 @@ export const profile = {
     "I'm a 24-year-old technology enthusiast based in Pune, with a growing career at the intersection of IT operations and cloud infrastructure. I thrive on solving problems end-to-end — from diagnosing tricky enterprise issues under tight SLAs to architecting and shipping my own web projects using React, Java, and Spring Boot. My time working across Microsoft Azure, AWS, and enterprise support systems has sharpened my ability to stay calm under pressure and communicate clearly with people at every level. I'm someone who genuinely enjoys the climb — whether that's learning a new cloud service, untangling a stubborn bug, or exploring a mountain trail on my motorcycle on weekends. I've collaborated with startups and individuals across the globe, and I'm always looking for the next challenge that pushes me a little further outside my comfort zone.",
   quote: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.',
   resumeUrl: '/resume.pdf',
+  // Contact form delivery: sign up free at https://formspree.io, click "+ New Form",
+  // set the recipient email to yours, then paste the 8-character Form ID below.
+  // Until you do, the contact form will show a setup notice instead of submitting.
+  formspreeId: 'YOUR_FORM_ID',
   socials: [
     { label: 'GitHub', url: 'https://github.com/YugantMoundekar' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/yugantmoundekar' },

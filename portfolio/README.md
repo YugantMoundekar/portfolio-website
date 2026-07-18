@@ -39,6 +39,21 @@ Everything text/content-related lives in **one file**: `src/data/content.js`. Ed
 - Projects — name, image, tech stack, link (`projects`)
 - Gallery images (`gallery`)
 
+### Making the Contact form actually work
+
+The "Let's Connect" contact form uses [Formspree](https://formspree.io) to deliver submissions straight to your inbox — no backend needed.
+
+1. Sign up for a free account at [formspree.io](https://formspree.io/register).
+2. Click **+ New Form**, name it anything (e.g. "Portfolio Contact"), and set the recipient email to your own.
+3. Copy the 8-character Form ID from the form's endpoint URL (e.g. `https://formspree.io/f/abcd1234` → ID is `abcd1234`).
+4. Paste it into `src/data/content.js`:
+
+```js
+formspreeId: 'abcd1234',
+```
+
+Until you add a real ID, the form will show a friendly "not wired up yet" notice instead of silently failing.
+
 ### Adding your own images/resume
 
 Drop files into the `public/` folder and reference them with a leading `/`, e.g.:
