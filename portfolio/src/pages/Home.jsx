@@ -21,7 +21,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3">
-            Hi, I'm {profile.name} ðŸ‘‹
+            Hi, I'm {profile.name} 👋
           </p>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-[1.25] tracking-tight bg-gradient-to-r from-accent-cyan to-accent-indigo bg-clip-text text-transparent max-w-lg [text-wrap:balance]">
             {profile.designation}
