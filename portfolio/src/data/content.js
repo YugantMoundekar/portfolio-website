@@ -16,7 +16,7 @@ export const profile = {
   socials: [
     { label: 'GitHub', url: 'https://github.com/YugantMoundekar' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/yugantmoundekar' },
-    { label: 'Email', url: 'mailto:you@example.com' },
+    { label: 'Email', url: 'mailto:moundekaryugant@gmail.com' },
   ],
 }
 
