@@ -30,7 +30,7 @@ export default function Slideshow({ images, interval = 3000, className = '' }) {
             onClick={() => setIndex(i)}
             aria-label={`Go to slide ${i + 1}`}
             className={`w-1.5 h-1.5 rounded-full transition-all ${
-              i === index ? 'bg-accent-pink w-4' : 'bg-white/50'
+              i === index ? 'bg-accent-cyan w-4' : 'bg-white/50'
             }`}
           />
         ))}

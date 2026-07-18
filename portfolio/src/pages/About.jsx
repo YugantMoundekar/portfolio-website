@@ -55,9 +55,9 @@ export default function About() {
               <a
                 key={l.id}
                 href={`#${l.id}`}
-                className="group flex items-center gap-2.5 text-sm text-slate-500 dark:text-slate-400 rounded-lg pl-4 pr-3 py-2 border-l-2 border-slate-200 dark:border-slate-800 hover:border-accent-pink hover:text-accent-pink hover:bg-accent-pink/5 hover:translate-x-1 transition-all duration-200"
+                className="group flex items-center gap-2.5 text-sm text-slate-500 dark:text-slate-400 rounded-lg pl-4 pr-3 py-2 border-l-2 border-slate-200 dark:border-slate-800 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/5 hover:translate-x-1 transition-all duration-200"
               >
-                <span className="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-600 group-hover:bg-accent-pink group-hover:scale-125 transition-all duration-200 shrink-0" />
+                <span className="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-600 group-hover:bg-accent-cyan group-hover:scale-125 transition-all duration-200 shrink-0" />
                 {l.label}
               </a>
             ))}
@@ -69,7 +69,7 @@ export default function About() {
           <section id="introduction" className="scroll-mt-28">
             <div className="flex flex-wrap items-baseline gap-3">
               <h1 className="text-3xl sm:text-4xl font-extrabold">{profile.name}</h1>
-              <span className="text-accent-pink font-medium">{profile.designation}</span>
+              <span className="text-accent-cyan font-medium">{profile.designation}</span>
             </div>
             <div className="flex flex-wrap gap-3 mt-4 text-sm">
               {profile.socials.map((s) => {
@@ -80,7 +80,7 @@ export default function About() {
                     href={s.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="group flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:border-accent-pink hover:text-accent-pink hover:bg-accent-pink/5 hover:-translate-y-0.5 hover:shadow-md hover:shadow-accent-pink/10 transition-all duration-200"
+                    className="group flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:border-accent-cyan hover:text-accent-cyan hover:bg-accent-cyan/5 hover:-translate-y-0.5 hover:shadow-md hover:shadow-accent-cyan/10 transition-all duration-200"
                   >
                     <Icon size={15} className="shrink-0 group-hover:scale-110 transition-transform duration-200" />
                     {s.label}
@@ -94,7 +94,7 @@ export default function About() {
               ))}
             </motion.div>
             {profile.quote && (
-              <motion.p {...fadeUp(0.15)} className="mt-4 text-sm italic text-accent-pink/90">
+              <motion.p {...fadeUp(0.15)} className="mt-4 text-sm italic text-accent-cyan/90">
                 "{profile.quote}"
               </motion.p>
             )}
@@ -105,7 +105,7 @@ export default function About() {
             <div className="mt-6 space-y-8 border-l border-slate-200 dark:border-slate-800 pl-6">
               {experience.map((job) => (
                 <div key={job.company + job.period} className="relative">
-                  <span className="absolute -left-[29px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent-pink" />
+                  <span className="absolute -left-[29px] top-1.5 w-2.5 h-2.5 rounded-full bg-accent-cyan" />
                   <div className="flex flex-wrap items-start justify-between gap-2">
                     <div className="flex items-center gap-3">
                       {job.logo && (
@@ -138,10 +138,10 @@ export default function About() {
 
           <motion.section {...fadeUp(0.05)} id="skills" className="scroll-mt-28 mt-16">
             <h2 className="section-heading">Technical Skills</h2>
-            <div className="mt-6 card p-6 border-accent-pink/40 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="mt-6 card p-6 border-accent-cyan/40 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
               {Object.entries(skills).map(([category, items]) => (
                 <div key={category}>
-                  <p className="font-semibold text-sm mb-3 text-accent-blue">{category}</p>
+                  <p className="font-semibold text-sm mb-3 text-accent-indigo">{category}</p>
                   <ul className="space-y-2">
                     {items.map((item) => (
                       <SkillBar key={item} name={item} />
@@ -161,9 +161,9 @@ export default function About() {
                     href={c.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300 hover:text-accent-pink transition-colors card px-4 py-3"
+                    className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300 hover:text-accent-cyan transition-colors card px-4 py-3"
                   >
-                    <Award size={16} className="text-accent-pink shrink-0" />
+                    <Award size={16} className="text-accent-cyan shrink-0" />
                     <span className="flex-1">{c.name}</span>
                     <ExternalLink size={14} className="opacity-50" />
                   </a>
@@ -178,7 +178,7 @@ export default function About() {
               {education.map((e, i) => (
                 <div key={e.year} className="flex flex-col items-center gap-2 flex-1">
                   <div
-                    className="w-full max-w-[10px] rounded-t-full bg-gradient-to-t from-accent-pink to-accent-blue"
+                    className="w-full max-w-[10px] rounded-t-full bg-gradient-to-t from-accent-cyan to-accent-indigo"
                     style={{ height: `${40 + i * 30}px` }}
                   />
                   <p className="text-xs font-medium">{e.year}</p>

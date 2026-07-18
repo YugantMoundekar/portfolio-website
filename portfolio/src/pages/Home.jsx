@@ -21,9 +21,9 @@ export default function Home() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3">
-            Hi, I'm {profile.name} 👋
+            Hi, I'm {profile.name} ðŸ‘‹
           </p>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-[1.25] tracking-tight bg-gradient-to-r from-accent-pink to-accent-blue bg-clip-text text-transparent max-w-lg [text-wrap:balance]">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-[1.25] tracking-tight bg-gradient-to-r from-accent-cyan to-accent-indigo bg-clip-text text-transparent max-w-lg [text-wrap:balance]">
             {profile.designation}
           </h1>
 
@@ -38,7 +38,7 @@ export default function Home() {
                   transition={{ duration: 0.4, delay: 0.15 + i * 0.08 }}
                   className="flex items-start gap-3 group"
                 >
-                  <span className="mt-0.5 flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-accent-pink/15 to-accent-blue/15 text-accent-pink shrink-0 group-hover:scale-110 transition-transform duration-200">
+                  <span className="mt-0.5 flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-accent-cyan/15 to-accent-indigo/15 text-accent-cyan shrink-0 group-hover:scale-110 transition-transform duration-200">
                     <Icon size={16} />
                   </span>
                   <span className="text-slate-600 dark:text-slate-300 leading-relaxed pt-1">{text}</span>
@@ -50,7 +50,7 @@ export default function Home() {
           <a
             href={profile.resumeUrl}
             download
-            className="pill-btn mt-8 border-accent-pink text-accent-pink hover:bg-accent-pink hover:text-white"
+            className="pill-btn mt-8 border-accent-cyan text-accent-cyan hover:bg-accent-cyan hover:text-white"
           >
             <Download size={16} /> Get My Resume
           </a>

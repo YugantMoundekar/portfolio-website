@@ -9,8 +9,8 @@ export default {
       },
       colors: {
         accent: {
-          pink: '#ec4899',
-          blue: '#3b82f6',
+          cyan: '#06b6d4',
+          indigo: '#6366f1',
         },
       },
       keyframes: {

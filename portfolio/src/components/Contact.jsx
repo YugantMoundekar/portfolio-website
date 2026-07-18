@@ -39,7 +39,7 @@ export default function Contact() {
             name="name"
             placeholder="Your name"
             disabled={!isConfigured}
-            className="card px-4 py-3 text-sm bg-transparent outline-none focus:border-accent-pink disabled:opacity-60"
+            className="card px-4 py-3 text-sm bg-transparent outline-none focus:border-accent-cyan disabled:opacity-60"
           />
           <input
             required
@@ -47,7 +47,7 @@ export default function Contact() {
             name="email"
             placeholder="Your email"
             disabled={!isConfigured}
-            className="card px-4 py-3 text-sm bg-transparent outline-none focus:border-accent-pink disabled:opacity-60"
+            className="card px-4 py-3 text-sm bg-transparent outline-none focus:border-accent-cyan disabled:opacity-60"
           />
           <textarea
             required
@@ -55,12 +55,12 @@ export default function Contact() {
             placeholder="Your message"
             rows={4}
             disabled={!isConfigured}
-            className="card px-4 py-3 text-sm bg-transparent outline-none focus:border-accent-pink sm:col-span-2 disabled:opacity-60"
+            className="card px-4 py-3 text-sm bg-transparent outline-none focus:border-accent-cyan sm:col-span-2 disabled:opacity-60"
           />
           <button
             type="submit"
             disabled={!isConfigured || state.submitting}
-            className="pill-btn sm:col-span-2 justify-center border-accent-pink bg-accent-pink text-white hover:opacity-90 w-fit disabled:opacity-50 disabled:cursor-not-allowed"
+            className="pill-btn sm:col-span-2 justify-center border-accent-cyan bg-accent-cyan text-white hover:opacity-90 w-fit disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Send size={16} /> {state.submitting ? 'Sending...' : 'Send Message'}
           </button>
@@ -69,7 +69,7 @@ export default function Contact() {
 
       <p className="mt-6 text-sm text-slate-500 dark:text-slate-400">
         Or reach me directly at{' '}
-        <a href={profile.socials.find((s) => s.label === 'Email')?.url} className="text-accent-pink font-medium">
+        <a href={profile.socials.find((s) => s.label === 'Email')?.url} className="text-accent-cyan font-medium">
           {profile.socials.find((s) => s.label === 'Email')?.url.replace('mailto:', '')}
         </a>
       </p>

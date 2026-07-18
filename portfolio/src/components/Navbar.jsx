@@ -23,7 +23,7 @@ export default function Navbar() {
             className={({ isActive }) =>
               `flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
                 isActive
-                  ? 'bg-accent-pink/90 text-white'
+                  ? 'bg-accent-cyan/90 text-white'
                   : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-white/10'
               }`
             }

@@ -2,7 +2,7 @@ import { ArrowUpRight } from 'lucide-react'
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="card overflow-hidden group hover:border-accent-pink/50 transition-colors duration-300">
+    <div className="card overflow-hidden group hover:border-accent-cyan/50 transition-colors duration-300">
       <div className="overflow-hidden">
         <img
           src={project.image}
@@ -18,7 +18,7 @@ export default function ProjectCard({ project }) {
             target="_blank"
             rel="noreferrer"
             aria-label={`Open ${project.name}`}
-            className="shrink-0 flex items-center gap-1 text-sm font-medium text-accent-pink hover:gap-2 transition-all mt-0.5"
+            className="shrink-0 flex items-center gap-1 text-sm font-medium text-accent-cyan hover:gap-2 transition-all mt-0.5"
           >
             Link <ArrowUpRight size={16} />
           </a>

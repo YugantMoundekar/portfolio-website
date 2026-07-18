@@ -11,7 +11,7 @@ body {
 }
 
 ::selection {
-  @apply bg-accent-pink/30;
+  @apply bg-accent-cyan/30;
 }
 
 ::-webkit-scrollbar {
