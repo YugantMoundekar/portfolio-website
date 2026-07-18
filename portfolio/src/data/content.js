@@ -18,7 +18,7 @@ export const profile = {
   // Contact form delivery: sign up free at https://formspree.io, click "+ New Form",
   // set the recipient email to yours, then paste the 8-character Form ID below.
   // Until you do, the contact form will show a setup notice instead of submitting.
-  formspreeId: 'YOUR_FORM_ID',
+  formspreeId: 'xeeygobz',
   socials: [
     { label: 'GitHub', url: 'https://github.com/YugantMoundekar' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/yugantmoundekar' },
