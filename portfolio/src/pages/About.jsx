@@ -88,8 +88,10 @@ export default function About() {
                 )
               })}
             </div>
-            <motion.div {...fadeUp(0.1)} className="card p-5 mt-6 text-slate-600 dark:text-slate-300 leading-relaxed">
-              {profile.about}
+            <motion.div {...fadeUp(0.1)} className="card p-5 mt-6 text-slate-600 dark:text-slate-300 leading-relaxed space-y-4">
+              {profile.about.map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
             </motion.div>
             {profile.quote && (
               <motion.p {...fadeUp(0.15)} className="mt-4 text-sm italic text-accent-pink/90">
