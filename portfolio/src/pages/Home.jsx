@@ -16,7 +16,7 @@ export default function Home() {
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3">
             Hi, I'm {profile.name} 👋
           </p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-[1.15] tracking-tight bg-gradient-to-r from-accent-pink to-accent-blue bg-clip-text text-transparent max-w-md">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-[1.25] tracking-tight bg-gradient-to-r from-accent-pink to-accent-blue bg-clip-text text-transparent max-w-lg [text-wrap:balance]">
             {profile.designation}
           </h1>
 
