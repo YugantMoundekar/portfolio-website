@@ -47,9 +47,9 @@ export const heroHighlights = [
 
 export const experience = [
   {
-    company: 'Technical and Business Operations Analyst',
-    designation: 'Pune, Maharashtra',
-    period: 'June 2026 — Present · 2 months',
+    company: 'Amdocs',
+    designation: 'Technical and Business Operations Analyst · Pune, Maharashtra',
+    period: 'June 2026 — Present',
     points: [
       'Virtualization, Microsoft 365, Microsoft Azure, and Microsoft Endpoint Configuration Manager.',
     ],
@@ -70,8 +70,8 @@ export const experience = [
     ],
   },
   {
-    company: 'Software Developer Intern',
-    designation: 'Navi Mumbai, Maharashtra',
+    company: 'Capgemini',
+    designation: 'Software Developer Intern · Navi Mumbai, Maharashtra',
     period: 'January 2023 — June 2023 · 6 months',
     points: [
       'Worked on backend development using Java and Spring Boot in an Agile environment.',
