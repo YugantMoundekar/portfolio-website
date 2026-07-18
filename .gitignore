@@ -1,0 +1,6 @@
+# Each folder inside java-projects/ is its own independent git repo,
+# already pushed to its own GitHub repository — not tracked here.
+java-projects/
+
+# Local dev tooling (e.g. portable Maven install) — not part of the project.
+tools/
