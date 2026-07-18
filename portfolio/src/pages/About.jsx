@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Award, ExternalLink } from 'lucide-react'
+import { Award, ExternalLink, Github, Linkedin, Mail, Link2 } from 'lucide-react'
 import {
   profile,
   experience,
@@ -24,6 +24,12 @@ function fadeUp(delay = 0) {
     viewport: { once: true, margin: '-80px' },
     transition: { duration: 0.5, delay },
   }
+}
+
+const socialIcons = {
+  GitHub: Github,
+  LinkedIn: Linkedin,
+  Email: Mail,
 }
 
 export default function About() {
@@ -65,12 +71,22 @@ export default function About() {
               <h1 className="text-3xl sm:text-4xl font-extrabold">{profile.name}</h1>
               <span className="text-accent-pink font-medium">{profile.designation}</span>
             </div>
-            <div className="flex gap-4 mt-3 text-sm">
-              {profile.socials.map((s) => (
-                <a key={s.label} href={s.url} target="_blank" rel="noreferrer" className="text-slate-500 dark:text-slate-400 hover:text-accent-blue">
-                  {s.label}
-                </a>
-              ))}
+            <div className="flex flex-wrap gap-3 mt-4 text-sm">
+              {profile.socials.map((s) => {
+                const Icon = socialIcons[s.label] || Link2
+                return (
+                  <a
+                    key={s.label}
+                    href={s.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="group flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:border-accent-pink hover:text-accent-pink hover:bg-accent-pink/5 hover:-translate-y-0.5 hover:shadow-md hover:shadow-accent-pink/10 transition-all duration-200"
+                  >
+                    <Icon size={15} className="shrink-0 group-hover:scale-110 transition-transform duration-200" />
+                    {s.label}
+                  </a>
+                )
+              })}
             </div>
             <motion.div {...fadeUp(0.1)} className="card p-5 mt-6 text-slate-600 dark:text-slate-300 leading-relaxed">
               {profile.about}
