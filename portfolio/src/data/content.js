@@ -8,7 +8,7 @@ export const profile = {
   designation: 'Technical and Business Operations Analyst',
   location: 'Pune, Maharashtra, India',
   languagesKnown: 'English, Hindi, Marathi',
-  photo: '/profile-placeholder.svg',
+  photo: '/profile.png',
   about:
     'I am Yugant Moundekar, a 24-year-old dedicated individual with a passion for Cloud Technologies. I enjoy the entire process, from conceptualization to actual implementation, and I am particularly interested in overcoming challenges that push me beyond my comfort zone. Throughout my journey, I have gained experience developing and hosting various web pages and sites, and have worked with startups and individuals from around the world.',
   quote: 'If there is a will, There is a way',
@@ -113,10 +113,8 @@ export const projects = [
 ]
 
 export const gallery = [
-  '/gallery-placeholder-1.svg',
-  '/gallery-placeholder-2.svg',
-  '/gallery-placeholder-3.svg',
-  '/gallery-placeholder-1.svg',
-  '/gallery-placeholder-2.svg',
-  '/gallery-placeholder-3.svg',
+  '/gallery-1.png',
+  '/gallery-2.png',
+  '/gallery-3.png',
+  '/gallery-4.png',
 ]
