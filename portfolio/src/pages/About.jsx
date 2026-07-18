@@ -74,6 +74,11 @@ export default function About() {
             <motion.div {...fadeUp(0.1)} className="card p-5 mt-6 text-slate-600 dark:text-slate-300 leading-relaxed">
               {profile.about}
             </motion.div>
+            {profile.quote && (
+              <motion.p {...fadeUp(0.15)} className="mt-4 text-sm italic text-accent-pink/90">
+                "{profile.quote}"
+              </motion.p>
+            )}
           </section>
 
           <motion.section {...fadeUp(0.05)} id="experience" className="scroll-mt-28 mt-16">

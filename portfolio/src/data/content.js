@@ -4,57 +4,69 @@
 // ─────────────────────────────────────────────────────────────
 
 export const profile = {
-  name: 'Your Name',
-  designation: 'Software Developer',
-  location: 'Asia / Kolkata',
-  languagesKnown: 'English, Hindi, Bengali',
+  name: 'Yugant Moundekar',
+  designation: 'Technical and Business Operations Analyst',
+  location: 'Pune, Maharashtra, India',
+  languagesKnown: 'English, Hindi, Marathi',
   photo: '/profile-placeholder.svg',
   about:
-    'I am a software developer who loves building clean, performant, and user-friendly web applications. I enjoy solving problems end-to-end — from designing intuitive interfaces to writing efficient backend logic. Always curious, always learning.',
+    'I am Yugant Moundekar, a 24-year-old dedicated individual with a passion for Cloud Technologies. I enjoy the entire process, from conceptualization to actual implementation, and I am particularly interested in overcoming challenges that push me beyond my comfort zone. Throughout my journey, I have gained experience developing and hosting various web pages and sites, and have worked with startups and individuals from around the world.',
+  quote: 'If there is a will, There is a way',
   resumeUrl: '/resume.pdf',
   socials: [
-    { label: 'GitHub', url: 'https://github.com/yourusername' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/yourusername' },
+    { label: 'GitHub', url: 'https://github.com/YugantMoundekar' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/yugantmoundekar' },
     { label: 'Email', url: 'mailto:you@example.com' },
-    { label: 'Hashnode', url: 'https://yourusername.hashnode.dev' },
   ],
 }
 
 export const heroIntro = [
-  'I build fast, accessible, and modern web experiences.',
-  'Specialized in React, Node.js, and cloud-native apps.',
-  'Passionate about clean code and great design.',
+  'I bridge technical support and business operations with a passion for Cloud Technologies.',
+  'Experienced across Microsoft Azure, AWS, virtualization, and DevOps.',
+  'Background in software development with Java, Spring Boot, and React JS.',
 ]
 
 export const experience = [
   {
-    company: 'Company Name',
-    designation: 'Software Developer',
-    period: '2025 — Present',
+    company: 'Technical and Business Operations Analyst',
+    designation: 'Pune, Maharashtra',
+    period: 'June 2026 — Present · 2 months',
     points: [
-      'Built and shipped key features for a production web application used by thousands of users.',
-      'Collaborated with design and product teams to deliver pixel-perfect, responsive UI.',
-      'Improved application performance by optimizing rendering and API calls.',
-      'Wrote unit and integration tests to maintain code quality.',
+      'Virtualization, Microsoft 365, Microsoft Azure, and Microsoft Endpoint Configuration Manager.',
     ],
   },
   {
-    company: 'Company Name',
-    designation: 'Software Development Intern',
-    period: '2023 — 2024',
+    company: 'HCLTech',
+    designation: 'Technical Support Engineer · Nagpur, Maharashtra',
+    period: 'January 2025 — May 2026 · 1 year 5 months',
     points: [
-      'Assisted in developing internal tools that streamlined team workflows.',
-      'Learned and applied best practices in version control and code review.',
+      'Handled 30–40+ technical incidents daily under defined SLA.',
+      'Provided first-level resolution for Windows, Outlook, Teams, and enterprise application issues.',
+      'Logged, categorized, and prioritized incidents using ServiceNow.',
+      'Coordinated with L2/L3 teams for issue escalation and resolution.',
+      'Performed root cause analysis for recurring incidents.',
+      'Ensured 95%+ SLA adherence.',
+      'Documented knowledge base articles for common issues, reducing repeat issues and improving resolution efficiency.',
+      'Troubleshot network connectivity issues including DNS resolution, VPN access, and IP configuration using basic TCP/IP diagnostics.',
+    ],
+  },
+  {
+    company: 'Software Developer Intern',
+    designation: 'Navi Mumbai, Maharashtra',
+    period: 'March 2023 — May 2023 · 3 months',
+    points: [
+      'Worked on backend development using Java and Spring Boot in an Agile environment.',
+      'Assisted with REST API development, SQL database integration, and application debugging.',
+      'Collaborated with cross-functional teams following enterprise development standards.',
     ],
   },
 ]
 
 export const skills = {
-  Frontend: ['React', 'JavaScript / TypeScript', 'Tailwind CSS', 'HTML5 & CSS3'],
-  Backend: ['Node.js', 'Express', 'REST APIs', 'Python'],
-  'Computer Networking': ['TCP/IP', 'DNS & HTTP', 'Load Balancing'],
-  Cloud: ['AWS', 'Docker', 'CI/CD', 'Vercel / Netlify'],
-  'Programming Languages': ['JavaScript', 'Python', 'Java', 'C++'],
+  Frontend: ['HTML5', 'CSS3', 'JavaScript', 'React JS'],
+  Backend: ['Java', 'Spring Boot'],
+  'Cloud & DevOps': ['AWS', 'Azure', 'DevOps'],
+  Tools: ['Git'],
 }
 
 export const certifications = [
@@ -64,9 +76,9 @@ export const certifications = [
 ]
 
 export const education = [
-  { year: '2021', label: '10th Grade' },
-  { year: '2023', label: '12th Grade' },
-  { year: '2027', label: 'Graduation' },
+  { year: 'March 2017', label: '10th / SSC — Bishop Cotton High School' },
+  { year: '2017 - 2020', label: 'Diploma / MSBTE — G.H. Raisoni Polytechnic (GHRP), Nagpur' },
+  { year: '2020 - 2023', label: "B-Tech / Bachelor's — G.H. Raisoni College of Engineering (GHRCE), Nagpur" },
 ]
 
 export const projects = [
